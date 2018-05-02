@@ -3,14 +3,19 @@ box: debian
 build:
   steps:
   - script:
-    name: Installing Dependencies.
+    name: Install dependencies.
+    code: |
+      apt update
+      apt-get install -y zip
+  - script:
+    name: Packing.
     code: |
       cd evil-magic
       zip -0 ../em.epub mimetype
       zip -r -9 ../em.epub META-INF OEBPS
-
-deploy:
-  steps:
-    - github-create-release:
-      token: ${GITHUB_TOKEN}
-      tag: "v${APPVER}"
+  - script:
+    name: Generate timestamp.
+    code: export APPVER=$(date "+%Y%m%d")
+  - github-create-release:
+    token: ${GITHUB_TOKEN}
+    tag: "v${APPVER}"
