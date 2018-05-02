@@ -1,0 +1,16 @@
+box: debian
+
+build:
+  steps:
+  - script:
+    name: Installing Dependencies.
+    code: |
+      cd evil-magic
+      zip -0 ../em.epub mimetype
+      zip -r -9 ../em.epub META-INF OEBPS
+
+deploy:
+  steps:
+    - github-create-release:
+      token: ${GITHUB_TOKEN}
+      tag: "v${APPVER}"
