@@ -2,4 +2,4 @@
 
 # EVIL MAGIC - 邪の魔術
 
-![](evil-magic/OEBPS/cover.jpg)
+![](evil-magic/OEBPS/images/cover.jpg)

@@ -18,15 +18,15 @@
     <item media-type="application/xhtml+xml" href="nav.xhtml" id="_nav.xhtml" properties="nav" />
     <item media-type="application/xhtml+xml" href="bodymatter_0_0.xhtml" id="_bodymatter_0_0.xhtml" />
     <item media-type="application/x-dtbncx+xml" href="toc.ncx" id="_toc.ncx" />
-    <item id="cover-id" href="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
-    <item id="P013" href="P013.jpg" media-type="image/jpeg"/>
-    <item id="P035" href="P035.jpg" media-type="image/jpeg"/>
-    <item id="P049" href="P049.jpg" media-type="image/jpeg"/>
-    <item id="P079" href="P079.jpg" media-type="image/jpeg"/>
-    <item id="P099" href="P099.jpg" media-type="image/jpeg"/>
-    <item id="P119" href="P119.jpg" media-type="image/jpeg"/>
-    <item id="P139" href="P139.jpg" media-type="image/jpeg"/>
-    <item id="P159" href="P159.jpg" media-type="image/jpeg"/>
+    <item id="cover-id" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="P013" href="images/P013.jpg" media-type="image/jpeg"/>
+    <item id="P035" href="images/P035.jpg" media-type="image/jpeg"/>
+    <item id="P049" href="images/P049.jpg" media-type="image/jpeg"/>
+    <item id="P079" href="images/P079.jpg" media-type="image/jpeg"/>
+    <item id="P099" href="images/P099.jpg" media-type="image/jpeg"/>
+    <item id="P119" href="images/P119.jpg" media-type="image/jpeg"/>
+    <item id="P139" href="images/P139.jpg" media-type="image/jpeg"/>
+    <item id="P159" href="images/P159.jpg" media-type="image/jpeg"/>
   </manifest>
   <spine page-progression-direction="rtl" toc="_toc.ncx">
     <itemref idref="_nav.xhtml" />
