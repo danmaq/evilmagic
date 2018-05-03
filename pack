@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd evil-magic
+zip -0 ../em.epub mimetype
+zip -r -9 ../em.epub META-INF OEBPS
