@@ -3,14 +3,14 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="identifier0">urn:uuid:75ec0dd0-c40a-45d9-898d-9d8f1479152e</dc:identifier>
     <meta refines="#identifier0" property="identifier-type" scheme="xsd:string">uuid</meta>
-    <dc:title id="title0">ＥＶＩＬ ＭＡＧＩＣ 邪の魔術</dc:title>
+    <dc:title id="title0">EVIL MAGIC 邪の魔術</dc:title>
     <meta refines="#title0" property="display-seq">1</meta>
     <dc:creator id="creator0">野村周平 (Mc)</dc:creator>
     <meta refines="#creator0" property="display-seq">1</meta>
     <dc:format>application/epub+zip</dc:format>
     <dc:language>ja</dc:language>
     <meta property="ibooks:specified-fonts">true</meta>
-    <meta property="dcterms:modified">2018-05-03T00:00:00Z</meta>
+    <meta property="dcterms:modified">2018-05-03T23:00:00Z</meta>
     <meta name="cover" content="cover-id" />
   </metadata>
   <manifest>
