@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="identifier0" version="3.0" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="identifier0" version="3.0" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/
+rendition: http://www.idpf.org/vocab/rendition/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="identifier0">urn:uuid:75ec0dd0-c40a-45d9-898d-9d8f1479152e</dc:identifier>
     <meta refines="#identifier0" property="identifier-type" scheme="xsd:string">uuid</meta>
@@ -15,8 +16,61 @@
   </metadata>
   <manifest>
     <item media-type="text/css" href="style.css" id="_style.css" />
+    <item media-type="application/xhtml+xml" href="cover.xhtml" id="_cover.xhtml" />
     <item media-type="application/xhtml+xml" href="nav.xhtml" id="_nav.xhtml" properties="nav" />
-    <item media-type="application/xhtml+xml" href="bodymatter_0_0.xhtml" id="_bodymatter_0_0.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/00.xhtml" id="body_00.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/01.xhtml" id="body_01.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/02.xhtml" id="body_02.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/03.xhtml" id="body_03.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/04.xhtml" id="body_04.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/05.xhtml" id="body_05.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/06.xhtml" id="body_06.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/07.xhtml" id="body_07.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/08.xhtml" id="body_08.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/09.xhtml" id="body_09.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/10.xhtml" id="body_10.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/11.xhtml" id="body_11.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/12.xhtml" id="body_12.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/13.xhtml" id="body_13.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/14.xhtml" id="body_14.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/15.xhtml" id="body_15.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/16.xhtml" id="body_16.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/17.xhtml" id="body_17.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/18.xhtml" id="body_18.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/19.xhtml" id="body_19.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/20.xhtml" id="body_20.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/21.xhtml" id="body_21.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/22.xhtml" id="body_22.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/23.xhtml" id="body_23.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/24.xhtml" id="body_24.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/25.xhtml" id="body_25.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/26.xhtml" id="body_26.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/27.xhtml" id="body_27.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/28.xhtml" id="body_28.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/29.xhtml" id="body_29.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/30.xhtml" id="body_30.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/31.xhtml" id="body_31.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/32.xhtml" id="body_32.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/33.xhtml" id="body_33.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/34.xhtml" id="body_34.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/35.xhtml" id="body_35.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/36.xhtml" id="body_36.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/37.xhtml" id="body_37.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/38.xhtml" id="body_38.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/39.xhtml" id="body_39.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/40.xhtml" id="body_40.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/41.xhtml" id="body_41.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/42.xhtml" id="body_42.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/43.xhtml" id="body_43.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/44.xhtml" id="body_44.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/45.xhtml" id="body_45.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/46.xhtml" id="body_46.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/47.xhtml" id="body_47.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/48.xhtml" id="body_48.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/49.xhtml" id="body_49.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/50.xhtml" id="body_50.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/51.xhtml" id="body_51.xhtml" />
+    <item media-type="application/xhtml+xml" href="body/52.xhtml" id="body_52.xhtml" />
     <item media-type="application/x-dtbncx+xml" href="toc.ncx" id="_toc.ncx" />
     <item id="cover-id" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item id="P013" href="images/P013.jpg" media-type="image/jpeg"/>
@@ -29,11 +83,73 @@
     <item id="P159" href="images/P159.jpg" media-type="image/jpeg"/>
   </manifest>
   <spine page-progression-direction="rtl" toc="_toc.ncx">
+    <itemref idref="_cover.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
     <itemref idref="_nav.xhtml" />
-    <itemref idref="_bodymatter_0_0.xhtml" />
+    <itemref idref="body_00.xhtml" />
+    <itemref idref="body_01.xhtml" />
+    <itemref idref="body_02.xhtml" />
+    <itemref idref="body_03.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
+    <itemref idref="body_04.xhtml" />
+    <itemref idref="body_05.xhtml" />
+    <itemref idref="body_06.xhtml" />
+    <itemref idref="body_07.xhtml" />
+    <itemref idref="body_08.xhtml" />
+    <itemref idref="body_09.xhtml" />
+    <itemref idref="body_10.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
+    <itemref idref="body_11.xhtml" />
+    <itemref idref="body_12.xhtml" />
+    <itemref idref="body_13.xhtml" />
+    <itemref idref="body_14.xhtml" />
+    <itemref idref="body_15.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
+    <itemref idref="body_16.xhtml" />
+    <itemref idref="body_17.xhtml" />
+    <itemref idref="body_18.xhtml" />
+    <itemref idref="body_19.xhtml" />
+    <itemref idref="body_20.xhtml" />
+    <itemref idref="body_21.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
+    <itemref idref="body_22.xhtml" />
+    <itemref idref="body_23.xhtml" />
+    <itemref idref="body_24.xhtml" />
+    <itemref idref="body_25.xhtml" />
+    <itemref idref="body_26.xhtml" />
+    <itemref idref="body_27.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
+    <itemref idref="body_28.xhtml" />
+    <itemref idref="body_29.xhtml" />
+    <itemref idref="body_30.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
+    <itemref idref="body_31.xhtml" />
+    <itemref idref="body_32.xhtml" />
+    <itemref idref="body_33.xhtml" />
+    <itemref idref="body_34.xhtml" />
+    <itemref idref="body_35.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
+    <itemref idref="body_36.xhtml" />
+    <itemref idref="body_37.xhtml" />
+    <itemref idref="body_38.xhtml" />
+    <itemref idref="body_39.xhtml" />
+    <itemref idref="body_40.xhtml" />
+    <itemref idref="body_41.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
+    <itemref idref="body_42.xhtml" />
+    <itemref idref="body_43.xhtml" />
+    <itemref idref="body_44.xhtml" />
+    <itemref idref="body_45.xhtml" />
+    <itemref idref="body_46.xhtml" />
+    <itemref idref="body_47.xhtml" />
+    <itemref idref="body_48.xhtml" />
+    <itemref idref="body_49.xhtml" />
+    <itemref idref="body_50.xhtml" />
+    <itemref idref="body_51.xhtml" />
+    <itemref idref="body_52.xhtml" properties="rendition:orientation-portrait" />
   </spine>
   <guide>
     <reference type="toc" title="目次" href="nav.xhtml" />
-    <reference type="text" title="本文" href="bodymatter_0_0.xhtml" />
+    <reference type="text" title="本文" href="body/00.xhtml" />
   </guide>
 </package>

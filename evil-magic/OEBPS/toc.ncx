@@ -13,47 +13,47 @@
     <text>EVIL MAGIC 邪の魔術</text>
   </docTitle>
   <navMap>
-    <navPoint id="bodymatter_0_0.xhtml__toc_index_1" playOrder="1">
+    <navPoint id="body.00.xhtml__toc_index_1" playOrder="1">
       <navLabel>
         <text>ＥＶＩＬ ＭＡＧＩＣ（プロローグ）</text>
       </navLabel>
-      <content src="bodymatter_0_0.xhtml#toc_index_1" />
+      <content src="body/00.xhtml#toc_index_1" />
     </navPoint>
-    <navPoint id="bodymatter_0_0.xhtml__toc_index_2" playOrder="2">
+    <navPoint id="body.09.xhtml__toc_index_2" playOrder="2">
       <navLabel>
         <text>潜入、そして、決闘！</text>
       </navLabel>
-      <content src="bodymatter_0_0.xhtml#toc_index_2" />
+      <content src="body/09.xhtml#toc_index_2" />
     </navPoint>
-    <navPoint id="bodymatter_0_0.xhtml__toc_index_3" playOrder="3">
+    <navPoint id="body.18.xhtml__toc_index_3" playOrder="3">
       <navLabel>
         <text>真実</text>
       </navLabel>
-      <content src="bodymatter_0_0.xhtml#toc_index_3" />
+      <content src="body/18.xhtml#toc_index_3" />
     </navPoint>
-    <navPoint id="bodymatter_0_0.xhtml__toc_index_4" playOrder="4">
+    <navPoint id="body.29.xhtml__toc_index_4" playOrder="4">
       <navLabel>
         <text>決着</text>
       </navLabel>
-      <content src="bodymatter_0_0.xhtml#toc_index_4" />
+      <content src="body/29.xhtml#toc_index_4" />
     </navPoint>
-    <navPoint id="bodymatter_0_0.xhtml__toc_index_5" playOrder="5">
+    <navPoint id="body.37.xhtml__toc_index_5" playOrder="5">
       <navLabel>
         <text>終末の日</text>
       </navLabel>
-      <content src="bodymatter_0_0.xhtml#toc_index_5" />
+      <content src="body/37.xhtml#toc_index_5" />
     </navPoint>
-    <navPoint id="bodymatter_0_0.xhtml__toc_index_6" playOrder="6">
+    <navPoint id="body.46.xhtml__toc_index_6" playOrder="6">
       <navLabel>
         <text>回想（エピローグ）</text>
       </navLabel>
-      <content src="bodymatter_0_0.xhtml#toc_index_6" />
+      <content src="body/46.xhtml#toc_index_6" />
     </navPoint>
-    <navPoint id="bodymatter_0_0.xhtml__toc_index_7" playOrder="7">
+    <navPoint id="body.50.xhtml__toc_index_7" playOrder="7">
       <navLabel>
         <text>あとがき</text>
       </navLabel>
-      <content src="bodymatter_0_0.xhtml#toc_index_7" />
+      <content src="body/50.xhtml#toc_index_7" />
     </navPoint>
   </navMap>
 </ncx>

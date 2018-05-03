@@ -2,12 +2,15 @@
 /* でんでんコンバーター縦書きデフォルト */
 @namespace "http://www.w3.org/1999/xhtml";
 @namespace epub "http://www.idpf.org/2007/ops";
+
 html {
-  -ms-writing-mode: tb-rl;
-  -epub-writing-mode: vertical-rl;
-  -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   font-family: serif, sans-serif;
+}
+
+html.colophon {
+  writing-mode: horizontal-tb;
+  font-family: sans-serif, serif;
 }
 
 body {
@@ -17,10 +20,18 @@ body {
   word-wrap: break-word;
 }
 
+.colophon body {
+  font-size: 55%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: serif, sans-serif;
   font-weight: normal;
   color: inherit;
+}
+
+.colophon h1, .colophon h2, .colophon h3, .colophon h4, .colophon h5, .colophon h6 {
+  font-family: sans-serif, serif;
 }
 
 h1 {
@@ -112,7 +123,6 @@ img {
 }
 
 hr {
-  border-style: dotted;
   margin-right: 1.25em;
   margin-left: 1.25em;
 }
@@ -217,12 +227,12 @@ p {
   margin: 0;
 }
 
-a {
+a, u {
   text-decoration: overline;
 }
 
-u {
-  text-decoration: overline;
+.colophon a, .colophon u {
+  text-decoration: underline;
 }
 
 em {
