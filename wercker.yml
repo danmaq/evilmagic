@@ -4,7 +4,7 @@ build:
   steps:
   - script:
     name: Install dependencies.
-    code: apk add --no-cache curl git openssh-client zip
+    code: apk add --no-cache zip
   - script:
     name: Packing.
     code: |
@@ -15,16 +15,14 @@ deploy:
   steps:
   - script:
     name: Install dependencies.
-    code: apk add --no-cache curl git openssh-client zip
+    code: apk add --no-cache curl file
   - script:
     name: Generate timestamp.
     code: export APPVER=$(date "+%Y%m%d-%H%M")
-  - script:
-    name: Rename.
-    code: cp em.epub evil-magic-${APPVER}.epub && ls -lh *.epub
   - github-create-release:
     token: ${GITHUB_TOKEN}
     tag: ${APPVER}
   - github-upload-asset:
     token: ${GITHUB_TOKEN}
-    file: ${WERCKER_ROOT}/evil-magic-${APPVER}.epub
+    file: em.epub
+    filename: evil-magic-${APPVER}.epub
