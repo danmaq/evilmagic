@@ -13,9 +13,17 @@ build:
       cd evil-magic
       zip -0 ../em.epub mimetype
       zip -r -9 ../em.epub META-INF OEBPS
+deploy:
+  steps:
   - script:
     name: Generate timestamp.
-    code: export APPVER=$(date "+%Y%m%d")
+    code: export APPVER=$(date "+%Y%m%d-%H%M")
+  - script:
+    name: Rename.
+    code: mv em.epub em${APPVER}.epub
   - github-create-release:
     token: ${GITHUB_TOKEN}
     tag: "v${APPVER}"
+  - github-upload-asset:
+    token: ${GITHUB_TOKEN}
+    file: em${APPVER}.epub
