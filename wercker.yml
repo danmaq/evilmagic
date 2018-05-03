@@ -4,7 +4,7 @@ build:
   steps:
   - script:
     name: Install dependencies.
-    code: apk add --no-cache curl git openssh zip
+    code: apk add --no-cache curl git openssh-client zip
   - script:
     name: Packing.
     code: |
@@ -13,6 +13,9 @@ build:
       zip -r -9 ../em.epub META-INF OEBPS
 deploy:
   steps:
+  - script:
+    name: Install dependencies.
+    code: apk add --no-cache curl git openssh-client zip
   - script:
     name: Generate timestamp.
     code: export APPVER=$(date "+%Y%m%d-%H%M")
