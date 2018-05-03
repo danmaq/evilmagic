@@ -1,5 +1,7 @@
 #!/bin/sh
 
 cd evil-magic
-zip -0 ../em.epub mimetype
-zip -r -9 ../em.epub META-INF OEBPS
+rm -f ../em.epub
+zip -X -0 ../em.epub mimetype
+zip -X -r -0 ../em.epub META-INF
+zip -X -r -9 ../em.epub OEBPS
