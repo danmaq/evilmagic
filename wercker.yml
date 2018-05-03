@@ -21,10 +21,10 @@ deploy:
     code: export APPVER=$(date "+%Y%m%d-%H%M")
   - script:
     name: Rename.
-    code: ls && cp em.epub evil-magic-${APPVER}.epub && ls && pwd
+    code: cp em.epub evil-magic-${APPVER}.epub && ls -lh *.epub
   - github-create-release:
     token: ${GITHUB_TOKEN}
     tag: ${APPVER}
   - github-upload-asset:
     token: ${GITHUB_TOKEN}
-    file: evil-magic-${APPVER}.epub
+    file: ${WERCKER_ROOT}/evil-magic-${APPVER}.epub
