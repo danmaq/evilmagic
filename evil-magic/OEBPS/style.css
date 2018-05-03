@@ -35,13 +35,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.375em;
   margin-right: 0.625em;
   margin-left: 0.625em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin-right: 0.83333em;
   margin-left: 0.83333em;
 }
@@ -221,10 +221,6 @@ h4 {
 
 blockquote {
   margin-top: 1em;
-}
-
-p {
-  margin: 0;
 }
 
 a, u {
