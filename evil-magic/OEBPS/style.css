@@ -3,17 +3,9 @@
 @namespace "http://www.w3.org/1999/xhtml";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-html {
+body {
   writing-mode: vertical-rl;
   font-family: serif, sans-serif;
-}
-
-html.colophon {
-  writing-mode: horizontal-tb;
-  font-family: sans-serif, serif;
-}
-
-body {
   text-align: justify;
   text-justify: newspaper;
   vertical-align: baseline;
@@ -21,6 +13,8 @@ body {
 }
 
 .colophon body {
+  writing-mode: horizontal-tb;
+  font-family: sans-serif, serif;
   font-size: 55%;
 }
 
