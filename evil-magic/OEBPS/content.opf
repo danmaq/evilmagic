@@ -30,38 +30,12 @@ rendition: http://www.idpf.org/vocab/rendition/#">
     <item media-type="application/xhtml+xml" href="11.xhtml" id="body_11.xhtml" />
     <item media-type="application/xhtml+xml" href="15.xhtml" id="body_15.xhtml" />
     <item media-type="application/xhtml+xml" href="16.xhtml" id="body_16.xhtml" />
-    <item media-type="application/xhtml+xml" href="17.xhtml" id="body_17.xhtml" />
-    <item media-type="application/xhtml+xml" href="18.xhtml" id="body_18.xhtml" />
-    <item media-type="application/xhtml+xml" href="21.xhtml" id="body_21.xhtml" />
-    <item media-type="application/xhtml+xml" href="22.xhtml" id="body_22.xhtml" />
-    <item media-type="application/xhtml+xml" href="24.xhtml" id="body_24.xhtml" />
-    <item media-type="application/xhtml+xml" href="26.xhtml" id="body_26.xhtml" />
-    <item media-type="application/xhtml+xml" href="27.xhtml" id="body_27.xhtml" />
-    <item media-type="application/xhtml+xml" href="28.xhtml" id="body_28.xhtml" />
-    <item media-type="application/xhtml+xml" href="29.xhtml" id="body_29.xhtml" />
-    <item media-type="application/xhtml+xml" href="30.xhtml" id="body_30.xhtml" />
-    <item media-type="application/xhtml+xml" href="31.xhtml" id="body_31.xhtml" />
-    <item media-type="application/xhtml+xml" href="34.xhtml" id="body_34.xhtml" />
-    <item media-type="application/xhtml+xml" href="35.xhtml" id="body_35.xhtml" />
-    <item media-type="application/xhtml+xml" href="36.xhtml" id="body_36.xhtml" />
-    <item media-type="application/xhtml+xml" href="37.xhtml" id="body_37.xhtml" />
-    <item media-type="application/xhtml+xml" href="39.xhtml" id="body_39.xhtml" />
-    <item media-type="application/xhtml+xml" href="41.xhtml" id="body_41.xhtml" />
-    <item media-type="application/xhtml+xml" href="42.xhtml" id="body_42.xhtml" />
-    <item media-type="application/xhtml+xml" href="46.xhtml" id="body_46.xhtml" />
-    <item media-type="application/xhtml+xml" href="50.xhtml" id="body_50.xhtml" />
-    <item media-type="application/xhtml+xml" href="51.xhtml" id="body_51.xhtml" />
-    <item media-type="application/xhtml+xml" href="52.xhtml" id="body_52.xhtml" />
     <item media-type="application/x-dtbncx+xml" href="toc.ncx" id="_toc.ncx" />
     <item id="cover-id" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item id="omake" href="images/omake.jpg" media-type="image/jpeg"/>
     <item id="P013" href="images/P013.jpg" media-type="image/jpeg"/>
     <item id="P035" href="images/P035.jpg" media-type="image/jpeg"/>
     <item id="P049" href="images/P049.jpg" media-type="image/jpeg"/>
-    <item id="P079" href="images/P079.jpg" media-type="image/jpeg"/>
-    <item id="P099" href="images/P099.jpg" media-type="image/jpeg"/>
-    <item id="P119" href="images/P119.jpg" media-type="image/jpeg"/>
-    <item id="P139" href="images/P139.jpg" media-type="image/jpeg"/>
     <item id="P159" href="images/P159.jpg" media-type="image/jpeg"/>
   </manifest>
   <spine page-progression-direction="rtl" toc="_toc.ncx">
@@ -84,33 +58,6 @@ rendition:orientation-portrait" />
     <itemref idref="body_15.xhtml" properties="rendition:layout-pre-paginated
 rendition:orientation-portrait" />
     <itemref idref="body_16.xhtml" />
-    <itemref idref="body_17.xhtml" />
-    <itemref idref="body_18.xhtml" />
-    <itemref idref="body_21.xhtml" properties="rendition:layout-pre-paginated
-rendition:orientation-portrait" />
-    <itemref idref="body_22.xhtml" />
-    <itemref idref="body_24.xhtml" />
-    <itemref idref="body_26.xhtml" />
-    <itemref idref="body_27.xhtml" properties="rendition:layout-pre-paginated
-rendition:orientation-portrait" />
-    <itemref idref="body_28.xhtml" />
-    <itemref idref="body_29.xhtml" />
-    <itemref idref="body_30.xhtml" properties="rendition:layout-pre-paginated
-rendition:orientation-portrait" />
-    <itemref idref="body_31.xhtml" />
-    <itemref idref="body_34.xhtml" />
-    <itemref idref="body_35.xhtml" properties="rendition:layout-pre-paginated
-rendition:orientation-portrait" />
-    <itemref idref="body_36.xhtml" />
-    <itemref idref="body_37.xhtml" />
-    <itemref idref="body_39.xhtml" />
-    <itemref idref="body_41.xhtml" properties="rendition:layout-pre-paginated
-rendition:orientation-portrait" />
-    <itemref idref="body_42.xhtml" />
-    <itemref idref="body_46.xhtml" />
-    <itemref idref="body_50.xhtml" />
-    <itemref idref="body_51.xhtml" />
-    <itemref idref="body_52.xhtml" properties="rendition:orientation-portrait" />
   </spine>
   <guide>
     <reference type="toc" title="目次" href="nav.xhtml" />
