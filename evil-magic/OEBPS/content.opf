@@ -22,6 +22,7 @@ rendition: http://www.idpf.org/vocab/rendition/#">
     <item media-type="application/xhtml+xml" href="01.xhtml" id="body_01.xhtml" />
     <item media-type="application/xhtml+xml" href="03.xhtml" id="body_03.xhtml" />
     <item media-type="application/xhtml+xml" href="04.xhtml" id="body_04.xhtml" />
+    <item media-type="application/xhtml+xml" href="05.xhtml" id="body_05.xhtml" />
     <item media-type="application/xhtml+xml" href="06.xhtml" id="body_06.xhtml" />
     <item media-type="application/xhtml+xml" href="07.xhtml" id="body_07.xhtml" />
     <item media-type="application/xhtml+xml" href="09.xhtml" id="body_09.xhtml" />
@@ -53,6 +54,7 @@ rendition: http://www.idpf.org/vocab/rendition/#">
     <item media-type="application/xhtml+xml" href="52.xhtml" id="body_52.xhtml" />
     <item media-type="application/x-dtbncx+xml" href="toc.ncx" id="_toc.ncx" />
     <item id="cover-id" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="omake" href="images/omake.jpg" media-type="image/jpeg"/>
     <item id="P013" href="images/P013.jpg" media-type="image/jpeg"/>
     <item id="P035" href="images/P035.jpg" media-type="image/jpeg"/>
     <item id="P049" href="images/P049.jpg" media-type="image/jpeg"/>
@@ -71,6 +73,8 @@ rendition:orientation-portrait" />
     <itemref idref="body_03.xhtml" properties="rendition:layout-pre-paginated
 rendition:orientation-portrait" />
     <itemref idref="body_04.xhtml" />
+    <itemref idref="body_05.xhtml" properties="rendition:layout-pre-paginated
+rendition:orientation-portrait" />
     <itemref idref="body_06.xhtml" />
     <itemref idref="body_07.xhtml" />
     <itemref idref="body_09.xhtml" />
