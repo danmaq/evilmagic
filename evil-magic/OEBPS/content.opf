@@ -113,6 +113,7 @@ rendition:orientation-portrait" />
     <itemref idref="body_52.xhtml" properties="rendition:orientation-portrait" />
   </spine>
   <guide>
+    <reference type="titlepage" title="扉" href="cover.xhtml" />
     <reference type="toc" title="目次" href="nav.xhtml" />
     <reference type="text" title="本文" href="00.xhtml" />
   </guide>
