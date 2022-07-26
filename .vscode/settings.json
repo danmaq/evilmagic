@@ -1,0 +1,8 @@
+{
+  "cSpell.ignorePaths": [
+    ".git/objects",
+    ".github/CODE_OF_CONDUCT.*",
+    ".vscode"
+  ],
+  "cSpell.words": ["epub", "waivable"]
+}
